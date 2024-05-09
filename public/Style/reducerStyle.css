@@ -1,0 +1,34 @@
+.reducerCard {
+  width: 1200px;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center; 
+}
+
+.formCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 10px;
+ 
+}
+
+  .bookList{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  .textColor{
+    color: rgb(47, 169, 245);
+  }
+  .buttonRight {
+    text-align: right;
+  }
+  

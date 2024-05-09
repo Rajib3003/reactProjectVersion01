@@ -1,0 +1,46 @@
+.country-card {
+    width: 30%; /* Adjust as needed */
+    min-width: 250px; /* Set a minimum width */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.country-card h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.country-card img {
+    width: 100%;
+    height: auto; 
+    max-height: 150px;
+    /* object-fit: cover; */
+    margin-bottom: 5px;
+}
+
+.country-card h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.country-card button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    margin-top: 10px;
+}
+
+.country-card button:hover {
+    background-color: #d32f2f;
+}
